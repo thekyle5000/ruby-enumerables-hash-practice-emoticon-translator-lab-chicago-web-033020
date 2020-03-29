@@ -6,7 +6,7 @@ def load_library(file_path)
 db = YAML.load_file(file_path)
 h = {}
 h["get_meaning"] = db.each do |k, v|
-  
+  db
 
 end
   
