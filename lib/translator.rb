@@ -29,7 +29,7 @@ def get_japanese_emoticon(file_path, emoticon)
     binding.pry
   end
   end
-  v
+  je
 end
 
 def get_english_meaning
