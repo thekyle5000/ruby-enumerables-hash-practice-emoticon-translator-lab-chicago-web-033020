@@ -5,7 +5,6 @@ require 'yaml'
 def load_library(file_path)
 db = YAML.load_file(file_path)
 h = {}
-binding.pry
 h["get_meaning"] = db.each do |k, v|
   
 
