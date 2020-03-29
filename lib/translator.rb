@@ -24,8 +24,11 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   my_db = load_library(file_path)
   my_db["get_emoticon"].each do |k, v|
-  
+  if k == emoticon
+    je = v
   end
+  end
+  v
 end
 
 def get_english_meaning
