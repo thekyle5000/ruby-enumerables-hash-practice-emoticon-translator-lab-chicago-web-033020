@@ -13,9 +13,8 @@ db.each do |k, v|
 meaning_hash[db[k][1]] = k
 
 end
-
 the_hash["get_meaning"] = meaning_hash
-
+the_hash
 end
 
   
