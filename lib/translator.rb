@@ -38,6 +38,7 @@ def get_japanese_emoticon(file_path, emoticon)
 end
 
 def get_english_meaning(file_path, emoticon)
-  my_db = load_libary(file_path)
   binding.pry
+  my_db = load_libary(file_path)
+
 end
