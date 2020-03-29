@@ -9,7 +9,7 @@ meaning_hash = {}
 
 db.each do |k, v|
 
-meaning_hash[db[k][1]] = db[k]
+meaning_hash[db[k][1]] = k
 binding.pry
 end
 end
