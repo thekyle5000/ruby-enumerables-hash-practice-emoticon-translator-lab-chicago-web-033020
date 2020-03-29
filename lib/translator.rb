@@ -23,6 +23,7 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   my_db = load_library(file_path)
+  je = nil
   my_db["get_emoticon"].each do |k, v|
   if k == emoticon
     je = v
