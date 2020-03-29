@@ -8,6 +8,11 @@ h = {}
 h["get_meaning"] = db.each do |k, v|
   h_inner = {}
   h_inner[db[v][1]] = db[k]
+  binding.pry
+end
+h["get_emoitcon"] = db.each do |key, value|
+
+end
 
 end
   
