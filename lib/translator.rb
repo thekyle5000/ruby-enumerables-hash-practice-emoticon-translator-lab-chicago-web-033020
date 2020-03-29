@@ -39,6 +39,12 @@ end
 
 def get_english_meaning(file_path, emoticon)
   my_db = load_library(file_path)
-  binding.pry
-
+  value = nil
+  my_db["get_meaning"].each do |k, v|
+   if k == emoticon
+    value = v
+   end
+  end
+  if value == nil
+    final = 
 end
