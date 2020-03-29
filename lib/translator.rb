@@ -7,13 +7,16 @@ db = YAML.load_file(file_path)
 the_hash = {}
 
 meaning_hash = {}
-
 db.each do |k, v|
-
 meaning_hash[db[k][1]] = k
-
 end
 the_hash["get_meaning"] = meaning_hash
+
+emoticon_hash = {}
+db.each do |key, value|
+  emoticon_hash[db[k][0]] = db[k][1]
+end
+the_hash["get_emoticon"] = emoticon_hash
 the_hash
 end
 
