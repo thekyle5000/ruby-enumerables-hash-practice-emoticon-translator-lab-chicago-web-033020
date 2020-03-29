@@ -5,13 +5,15 @@ require 'yaml'
 def load_library(file_path)
 db = YAML.load_file(file_path)
 the_hash = {}
+
 meaning_hash = {}
 
 db.each do |k, v|
 
 meaning_hash[db[k][1]] = k
-binding.pry
+
 end
+
 the_hash["get_meaning"] = meaning_hash
 
 end
