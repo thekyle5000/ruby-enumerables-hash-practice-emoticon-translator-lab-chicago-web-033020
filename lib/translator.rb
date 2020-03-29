@@ -4,7 +4,9 @@ require 'yaml'
 
 def load_library(file_path)
 db = YAML.load_file(file_path)
-get_meaning = db.map do |k, v| 
+get_meaning = db.each do |k, v|
+
+end
   
 
 end
