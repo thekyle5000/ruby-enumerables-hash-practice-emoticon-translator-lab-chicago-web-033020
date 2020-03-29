@@ -4,6 +4,9 @@ require 'yaml'
 
 def load_library(file_path)
 db = YAML.load_file(file_path)
+meaning_hash = {}
+meaning_hash
+
 h = {}
 h["get_meaning"] = db.each do |k, v|
   h_inner = {}
