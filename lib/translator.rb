@@ -26,7 +26,6 @@ def get_japanese_emoticon(file_path, emoticon)
   my_db["get_emoticon"].each do |k, v|
   if k == emoticon
     je = v
-    binding.pry
   end
   end
   je 
