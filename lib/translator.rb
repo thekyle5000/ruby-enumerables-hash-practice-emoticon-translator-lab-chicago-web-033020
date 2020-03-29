@@ -39,6 +39,6 @@ end
 
 def get_english_meaning(file_path, emoticon)
   binding.pry
-  my_db = load_libary(file_path)
+  my_db = load_library(file_path)
 
 end
