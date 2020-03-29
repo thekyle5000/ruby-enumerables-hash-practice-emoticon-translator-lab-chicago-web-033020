@@ -14,7 +14,7 @@ the_hash["get_meaning"] = meaning_hash
 
 emoticon_hash = {}
 db.each do |key, value|
-  emoticon_hash[db[k][0]] = db[k][1]
+  emoticon_hash[db[key][0]] = db[key][1]
 end
 the_hash["get_emoticon"] = emoticon_hash
 the_hash
