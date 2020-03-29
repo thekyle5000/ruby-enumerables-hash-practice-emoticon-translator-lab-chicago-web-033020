@@ -20,27 +20,10 @@ the_hash["get_emoticon"] = emoticon_hash
 the_hash
 end
 
+
+def get_japanese_emoticon(file_path, emoticon)
+  my_db = load_library(file_path)
   
-  
-  
-
-# h = {}
-# h["get_meaning"] = db.each do |k, v|
-#   h_inner = {}
-#   h_inner[db[v][1]] = db[k]
-#   binding.pry
-# end
-# h["get_emoitcon"] = db.each do |key, value|
-
-# end
-
-# end
-  
-
-# end
-
-def get_japanese_emoticon
-  # code goes here
 end
 
 def get_english_meaning
